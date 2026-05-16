@@ -2,7 +2,7 @@
 
 #include <Adafruit_NeoPixel.h>
 
-#define LED_PIN    6
+#define LED_PIN    6    // This is the pin of arduino where you would connect the data pin of WSB led
 #define LED_COUNT  16   // This defines the number of LED's in your module
 
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
