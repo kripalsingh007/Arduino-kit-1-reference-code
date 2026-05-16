@@ -1,3 +1,5 @@
+// this is the basic code for using WSB Led's, you can take refrence of this code to complete tasks
+
 #include <Adafruit_NeoPixel.h>
 
 #define LED_PIN    6
@@ -22,5 +24,3 @@ void loop()
 {
   // Nothing here
 }
-
-// this is the basic code for using WSB Led's, you can take refrence of this code to complete the pending tasks
